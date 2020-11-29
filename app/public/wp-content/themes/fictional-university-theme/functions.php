@@ -92,7 +92,7 @@ add_action('after_setup_theme', 'uni_features');
 add_action('pre_get_posts', 'uni_adjust_queries');
 
 function universityMapKey($api) {
-  $api['key'] = 'AIzaSyB4k5_uGwKmC7xmR0Npz1vG3WOuUzig1qw';
+  $api['key'] = '';
   return $api;
 }
 
