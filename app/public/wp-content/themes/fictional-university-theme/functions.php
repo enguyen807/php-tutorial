@@ -39,7 +39,7 @@ function uni_files () {
   wp_enqueue_style('custom-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
   wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
   // Google Maps JS files
-  wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyB4k5_uGwKmC7xmR0Npz1vG3WOuUzig1qw', NULL, '1.0', true);
+  wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=', NULL, '1.0', true);
 
   if (strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
     wp_enqueue_script('main-uni-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
